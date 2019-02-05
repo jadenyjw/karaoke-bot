@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jadenyjw/karaoke-bot/issues"
   },
-  "homepage": "https://github.com/jadenyjw/karaoke-bot#readme"
+  "homepage": "https://github.com/jadenyjw/karaoke-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "node-opus": "^0.3.1"
+  }
 }
