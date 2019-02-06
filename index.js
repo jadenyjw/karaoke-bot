@@ -30,6 +30,7 @@ client.on('message', message => {
          vc.members.forEach(function(guildMember, guildMemberId) {
             if(guildMember.user != client.user){
               console.log(guildMemberId, guildMember.user.username);
+              map[guildMember.user] = receiver.createOpusStream(guildMember.user)
             }
          });
 
