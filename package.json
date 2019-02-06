@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jadenyjw/karaoke-bot#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "node-opus": "^0.3.1"
+    "node-opus": "^0.3.1",
+    "ytdl-core": "^0.29.1"
   }
 }
